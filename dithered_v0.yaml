@@ -1,0 +1,50 @@
+id: _0004665030
+instrument: EMIR
+mode: STARE_IMAGE
+frames:
+ - 0004665030-20240805-EMIR-STARE_IMAGE.fits
+requirements:
+  reprojection_method: interp
+enabled: False
+---
+id: _0004665167
+instrument: EMIR
+mode: STARE_IMAGE
+frames:
+ - 0004665167-20240805-EMIR-STARE_IMAGE.fits
+requirements:
+  reprojection_method: interp
+enabled: False
+---
+id: _0004665304
+instrument: EMIR
+mode: STARE_IMAGE
+frames:
+ - 0004665304-20240805-EMIR-STARE_IMAGE.fits
+requirements:
+  reprojection_method: interp
+enabled: False
+---
+id: _0004665441
+instrument: EMIR
+mode: STARE_IMAGE
+frames:
+ - 0004665441-20240805-EMIR-STARE_IMAGE.fits
+requirements:
+  reprojection_method: interp
+enabled: False
+---
+id: _combined_v0
+instrument: EMIR
+mode: FULL_DITHERED_IMAGE
+children:
+ - _0004665030
+ - _0004665167
+ - _0004665304
+ - _0004665441
+requirements:
+  iterations: 0
+  sky_images: 0
+  refine_offsets: False
+  adhoc_sky_correction_h2rg: True
+enabled: True

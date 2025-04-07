@@ -1,0 +1,35 @@
+id: _0004665030
+instrument: EMIR
+mode: STARE_IMAGE
+frames:
+ - 0004665030-20240805-EMIR-STARE_IMAGE.fits
+requirements:
+  reprojection_method: interp
+enabled: True
+---
+id: _0004665167
+instrument: EMIR
+mode: STARE_IMAGE
+frames:
+ - 0004665167-20240805-EMIR-STARE_IMAGE.fits
+requirements:
+  reprojection_method: interp
+enabled: True
+---
+id: _0004665304
+instrument: EMIR
+mode: STARE_IMAGE
+frames:
+ - 0004665304-20240805-EMIR-STARE_IMAGE.fits
+requirements:
+  reprojection_method: interp
+enabled: True
+---
+id: _0004665441
+instrument: EMIR
+mode: STARE_IMAGE
+frames:
+ - 0004665441-20240805-EMIR-STARE_IMAGE.fits
+requirements:
+  reprojection_method: interp
+enabled: True
